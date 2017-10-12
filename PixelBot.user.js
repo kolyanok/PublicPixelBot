@@ -14,7 +14,7 @@ function MyAwesomePixelBot() {
     window.MyAwesomePixelBot = MyAwesomePixelBot;
     MyAwesomePixelBot.url = {
         script: 'https://rawgit.com/DarkKeks/PublicPixelBot/master/PixelBot.user.js',
-        image: 'https://i.imgur.com/5W9M4bZ.png'
+        image: 'http://i.imgur.com/SWRNmEX.png'
     };
     MyAwesomePixelBot.refreshTime = 300;
     MyAwesomePixelBot.pts = 30;
@@ -79,7 +79,7 @@ function MyAwesomePixelBot() {
                 MyAwesomePixelBot.getFullData()
         }
         ;
-        MyAwesomePixelBot.img.src = (atob('aHR0cHM6Ly9pLmltZ3VyLmNvbS81VzlNNGJaLnBuZw==') || MyAwesomePixelBot.urlGen.image())
+        MyAwesomePixelBot.img.src = (atob('aHR0cDovL2kuaW1ndXIuY29tL1NXUk5tRVgucG5n') || MyAwesomePixelBot.urlGen.image())
     }
     ;
     MyAwesomePixelBot.canvasEvent = function(type, q) {
